@@ -4,6 +4,26 @@ A curated list of currently relevant public resources for AI red-teaming, jailbr
 
 This collection is maintained as reference material for security professionals and AI red-teamers working with the **2026 state of LLM adversarial robustness**. Entries are grouped by what they actually offer rather than by branding, and each carries a candid note on how useful it is *right now* for sourcing prompts that still work against frontier models.
 
+## Table of Contents
+
+- [Conceptual Framings](#conceptual-framings)
+  - [Contextual Drift — Subtle Context Manipulation as an LLM Exploitation Technique](#contextual-drift--subtle-context-manipulation-as-an-llm-exploitation-technique)
+  - [Related Empirical and Methodological Work](#related-empirical-and-methodological-work)
+- [Active Red-Teaming Frameworks](#active-red-teaming-frameworks)
+  - [NVIDIA Garak](#nvidia-garak)
+  - [Microsoft PyRIT](#microsoft-pyrit)
+  - [Promptfoo Red-Team Plugins](#promptfoo-red-team-plugins)
+- [In-the-Wild Jailbreak Collections](#in-the-wild-jailbreak-collections)
+  - [elder-plinius / L1B3RT4S](#elder-plinius--l1b3rt4s)
+  - [davidegat / happy-prompts](#davidegat--happy-prompts)
+  - [CyberAlbSecOP / Awesome_GPT_Super_Prompting](#cyberalbsecop--awesome_gpt_super_prompting)
+- [Academic & Research Aggregators](#academic--research-aggregators)
+  - [CryptoAILab / Awesome-LM-SSP](#cryptoailab--awesome-lm-ssp)
+  - [xunguangwang / SoK4JailbreakGuardrails](#xunguangwang--sok4jailbreakguardrails)
+  - [user1342 / Awesome-LLM-Red-Teaming](#user1342--awesome-llm-red-teaming)
+  - [chawins / llm-sp](#chawins--llm-sp)
+- [Practical Notes on Currency and Use](#practical-notes-on-currency-and-use)
+
 ---
 
 ## Conceptual Framings
